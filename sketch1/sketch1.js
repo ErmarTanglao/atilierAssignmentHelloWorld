@@ -43,9 +43,11 @@ function draw(){
     stroke(168, 105, 0);
     strokeWeight(2);
     line(360, 270, 360, 368);
-    
+    line(340, 270, 340, 319);
+    line(380, 270, 380, 319);
+    line(334, 300, 386, 300);
+    line(346, 335, 374, 335);
 
-    
     //IceCream Details
     noStroke();
     fill(252, 86, 141);
