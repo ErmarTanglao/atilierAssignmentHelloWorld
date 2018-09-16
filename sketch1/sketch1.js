@@ -95,7 +95,7 @@ function draw(){
     noStroke();
     
     //IceCream
-    fill(252, 86, 141);
+    fill(100, 195, 52);
     ellipse(iceCream.x, iceCream.y, iceCream.r);
 
     //Ice Cream cone
@@ -113,11 +113,19 @@ function draw(){
 
     //IceCream Details
     noStroke();
-    fill(252, 86, 141);
+    fill(100, 195, 52);
     ellipse(325, 270, 25);
     ellipse(340, 270, 25);
     ellipse(355, 270, 25);
     ellipse(370, 270, 25);
     ellipse(385, 270, 25);
     ellipse(397, 270, 25);
+
+    //Ice Cream Sauce
+    fill(82, 0, 0)
+    arc(360, 240, 100, 100, PI, 0);
+    ellipse(390,240,15,50);
+    ellipse(340,240,15,35);
+    ellipse(368,240,15,23);
+    
 }
