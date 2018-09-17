@@ -25,7 +25,9 @@ function draw(){
 function mouseClicked() {
     var clickeddistance = dist(ball.x, ball.y, mouseX, mouseY);
 	if(clickeddistance < ball.r){
-		ellipse(random(ball.x), random(ball.y), ball.r/2)
+        ellipse(random(ball.x), random(ball.y), ball.r/2)
+        ball.x = ball.x + ball.xspeed;
+        ball.y = ball.y + ball.yspeed;  
 	}
 	// if(mouseX < width/2 + 50 && mouseX > width/2 - 50){
 	// 	if(mouseY < height/2 + 50 && mouseY > height/2 - 50){
