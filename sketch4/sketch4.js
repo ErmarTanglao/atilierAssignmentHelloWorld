@@ -1,8 +1,6 @@
 var radius = 150;
 var angle = 0;
-var speed = 0.05;
-var centerX = 300;
-var centerY = 300;
+var speed = 0.1;
 
 function setup() { 
   createCanvas(600, 600);
