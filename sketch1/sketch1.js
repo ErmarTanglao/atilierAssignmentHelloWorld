@@ -1,3 +1,7 @@
+//References
+//https://p5js.org/reference/#/p5/line
+//https://p5js.org/reference/#/p5/triangle
+
 var iceCream;
 var iceCreamCone;
 var iceCreamDetails;
