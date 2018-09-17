@@ -11,8 +11,8 @@ function setup() {
 function draw() { 
     background(220);
   
-    var x = centerX + radius * cos(angle);
-    var y = centerY + radius * sin(angle);
+    var x = mouseX + radius * cos(angle);
+    var y = mouseY + radius * sin(angle);
     ellipse(x, y, 50, 50);
 
     angle = angle + speed;

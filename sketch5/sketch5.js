@@ -1,6 +1,7 @@
 var ball;
 var w = 720;
 var h = 480;
+var toggle = 0;
 
 function setup() {
   createCanvas(w, h);
@@ -12,25 +13,31 @@ function setup() {
 }
 
 function draw() {
+
+    if (keyIsPressed === true) {
+        fill(0);
+    } else {
+        fill(255);
+    }
+
     if (keyIsDown(LEFT_ARROW)) {
         ball.x -= 5;
-  }
+    }
 
     if (keyIsDown(RIGHT_ARROW)) {
         ball.x += 5;
-  }
+    }
 
     if (keyIsDown(UP_ARROW)) {
         ball.y -= 5;
-  }
+    }
 
     if (keyIsDown(DOWN_ARROW)) {
         ball.y += 5;
-  }
+    }
 
   clear();
-  background(0);
-  fill(255, 0, 0);
+  background("red");
   ellipse(ball.x, ball.y, ball.r);
 
     if (ball.x + ball.r > w || ball.x - ball.r < 0){
