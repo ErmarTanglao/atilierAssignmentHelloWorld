@@ -1,3 +1,8 @@
+//References
+//https://p5js.org/reference/#/p5/keyPressed
+//https://p5js.org/reference/#/p5/keyIsPressed
+//https://p5js.org/reference/#/p5/keyIsDown
+
 var ball;
 var w = 720;
 var h = 480;
@@ -20,19 +25,19 @@ function draw() {
         fill(255);
     }
 
-    if (keyIsDown(LEFT_ARROW)) {
+    if (keyIsDown(65)) {
         ball.x -= 5;
     }
 
-    if (keyIsDown(RIGHT_ARROW)) {
+    if (keyIsDown(68)) {
         ball.x += 5;
     }
 
-    if (keyIsDown(UP_ARROW)) {
+    if (keyIsDown(87)) {
         ball.y -= 5;
     }
 
-    if (keyIsDown(DOWN_ARROW)) {
+    if (keyIsDown(83)) {
         ball.y += 5;
     }
 

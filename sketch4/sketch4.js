@@ -1,3 +1,7 @@
+//References
+//https://p5js.org/reference/#/p5/sin
+//https://p5js.org/reference/#/p5/cos
+
 var radius = 150;
 var angle = 0;
 var speed = 0.1;
