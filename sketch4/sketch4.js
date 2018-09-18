@@ -1,6 +1,7 @@
 //References
 //https://p5js.org/reference/#/p5/sin
 //https://p5js.org/reference/#/p5/cos
+//Second Sketch first class
 
 var radius = 150;
 var angle = 0;
